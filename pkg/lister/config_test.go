@@ -1,4 +1,4 @@
-package grafana
+package lister
 
 import (
 	"os"
