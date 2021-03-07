@@ -8,16 +8,16 @@ Grizzly itself. In this case, the ability to list resources found within a
 Grafana instance. The purpose of this is to facilitate the migration of resources
 between Grafana instances.
 
-List folders on a Grafana instance:
+List IDs for folders on a Grafana instance:
 ```
 grr-list folders
 ```
 List dashboard UIDs within a specific folder:
 ```
-grr-list dashboards <folder-name>
+grr-list dashboards <folder-id>
 ```
 
-List all datasources:
+List names for all datasources on a Grafana instance:
 ```
 grr-list datasources
 ```
